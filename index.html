@@ -36,7 +36,7 @@ async function sendData() {
 
   const B1 = (B * V - O);
 
-  const res = await fetch("【ここにApps ScriptのURL】", {
+  const res = await fetch("https://script.google.com/macros/s/AKfycbwmx2XJFWyqNg6D8m4LVikEQ9r4RJKXTv1Bj7u47MdsJkSLkd-PmaMUM3VtN9Q_ejfK8Q/exec", {
     method: "POST",
     body: JSON.stringify({ B1, B, V, O, r1, r2 })
   });
